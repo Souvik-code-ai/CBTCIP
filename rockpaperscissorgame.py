@@ -8,7 +8,7 @@ user=input("put options  separated by comma:")
 i=user.split(",")
 print(i)
 user1=random.choice(i)
-print(f"user 1 option is:{user1}")
+
 user2=input("user 2 option among rock,paper,scissor is:")
 if(user1=="rock" and user2=="paper"):
     print("user2 wins")
