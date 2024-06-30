@@ -26,7 +26,7 @@ def player2():
                     print("player2 is mastermind.")
 
                 else:
-                    print(f"no of total iteratios of player1 is:{a}")
+                    print(f"no of total iterations of player1 is:{a}")
                 break
             result()
         elif (player1_number != player2_digit):
@@ -57,7 +57,7 @@ def guess_player2():
                 print("player2 is mastermind.")
 
             else:
-                print(f"no of total iteratios of player2 is:{i}")
+                print(f"no of total iterations of player2 is:{i}")
             break
         player2()
     elif (player2_number != player1_digit):
